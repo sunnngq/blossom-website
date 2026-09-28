@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f8;
+    color: #374a38;
+}
+
+
+.header {
+    width: 100%;
+    min-height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 70px;
+
+    background-color: #f7d9df;
+}
+
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #557557;
+}
+
+
+.navigation {
+    display: flex;
+    gap: 40px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #374a38;
+
+    font-size: 17px;
+}
+
+.navigation a:hover {
+    color: #9b6470;
+}
+
+
+.header-button {
+    border: none;
+
+    padding: 13px 24px;
+
+    border-radius: 25px;
+
+    background-color: #789878;
+    color: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+.header-button:hover {
+    background-color: #5f7e5f;
+}
+
+.hero {
+    min-height: 600px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 80px;
+
+    background-color: #f8e8e9;
+}
+
+
+.hero-content {
+    max-width: 600px;
+}
+
+
+
+.hero-small-text {
+    margin-bottom: 15px;
+
+    font-size: 18px;
+
+    color: #789878;
+}
+
+
+.hero h1 {
+    margin-bottom: 25px;
+
+    font-size: 58px;
+    line-height: 1.1;
+
+    color: #374a38;
+}
+
+
+.hero-description {
+    margin-bottom: 30px;
+
+    font-size: 20px;
+    line-height: 1.6;
+
+    color: #596259;
+}
+
+
+
+.hero-button {
+    border: none;
+
+    padding: 16px 32px;
+
+    border-radius: 30px;
+
+    background-color: #789878;
+
+    color: white;
+
+    font-size: 17px;
+
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: #5f7e5f;
+}
+
+
+.nastya-section {
+    min-height: 400px;
+
+    padding: 80px;
+
+    background-color: white;
+
+    text-align: center;
+}
+
+.nastya-section h2 {
+    margin-bottom: 20px;
+
+    font-size: 40px;
+
+    color: #374a38;
+}
+
+
+.footer {
+    min-height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #dce8dc;
+
+    color: #374a38;
+}
